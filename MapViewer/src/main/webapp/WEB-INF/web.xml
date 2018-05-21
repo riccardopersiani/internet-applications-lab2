@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DBToGeoJson</servlet-name>
+  	<display-name>DBToGeoJson</display-name>
+  	<description></description>
+  	<servlet-class>it.polito.ai.lab2.DBToGeoJson</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DBToGeoJson</servlet-name>
+  	<url-pattern>/DBToGeoJson</url-pattern>
+  </servlet-mapping>
+</web-app>
